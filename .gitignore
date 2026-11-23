@@ -1,0 +1,10 @@
+# data.json เก็บบน repo เพราะใช้เป็นข้อมูลกลางของทีม (โหมด GitHub เขียนไฟล์นี้โดยตรง)
+# backups/ เป็นไฟล์สำรองที่ server.py สร้างในเครื่อง ไม่ต้องขึ้น repo
+backups/
+
+# ไฟล์ชั่วคราวจากการเขียนแบบ atomic
+.data-*.tmp
+
+# Python
+__pycache__/
+*.pyc
